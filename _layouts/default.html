@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+  </head>
+
+
+  <body>
+
+    {% include navigation.html %}
+
+    <div class="container">
+      {{ content }}
+    </div>
+
+    <br>
+    {% include footer.html %}
+  </body>
+
+</html>
